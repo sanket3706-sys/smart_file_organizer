@@ -1,0 +1,8 @@
+Course: Computational Thinking and Programming
+Python Notes: Core Concepts (E3-E10)
+
+- E4: String methods (.lower(), .upper(), .split(), .index(), .isupper()).
+- E6: Membership ('in') and iteration (enumerate(), zip()).
+- E8: Functional tools (map, filter, lambda expressions).
+- E9: Recursion with safe termination and base cases.
+- E10: Robust exception handling (try / except / else / finally).

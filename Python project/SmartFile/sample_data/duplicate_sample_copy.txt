@@ -1,0 +1,19 @@
+=======================================================
+REVISION CHEAT SHEET: CORE ALGORITHMS & TIME COMPLEXITIES
+=======================================================
+
+Sorting Algorithms:
+- Quicksort:      Best O(n log n), Average O(n log n), Worst O(n^2), In-place.
+- Mergesort:      Best O(n log n), Average O(n log n), Worst O(n log n), O(n) space.
+- Heapsort:       Best O(n log n), Average O(n log n), Worst O(n log n), In-place.
+
+Search Algorithms:
+- Linear Search:  O(n) time, O(1) space.
+- Binary Search:  O(log n) time, requires sorted array.
+
+Graph Traversal:
+- BFS: Uses Queue, finds shortest path on unweighted graphs. Time: O(V + E).
+- DFS: Uses Stack / Recursion, detects cycles. Time: O(V + E).
+
+This document is used to verify SHA-256 duplicate detection.
+Any copy with identical text will have the exact same cryptographic hash.

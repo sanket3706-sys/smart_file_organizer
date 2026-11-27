@@ -1,0 +1,23 @@
+date,time,action,original_path,new_path
+2026-09-29,15:39:24,Moved,sample_data\DBMS_assignment.pdf,sample_data\College\DBMS\Assignments\DBMS_assignment.pdf
+2026-09-29,15:39:24,Moved,sample_data\DSA_assignment.pdf,sample_data\College\DSA\Assignments\DSA_assignment_1.pdf
+2026-09-29,15:39:24,Moved,sample_data\DSA_notes_copy.pdf,sample_data\College\DSA\Notes\DSA_notes_copy.pdf
+2026-09-29,15:39:24,Moved,sample_data\DSA_unit2_notes.pdf,sample_data\College\DSA\Notes\DSA_unit2_notes.pdf
+2026-09-29,15:39:24,Moved,sample_data\Physics_lab.pdf,sample_data\College\Physics\Lab\Physics_lab.pdf
+2026-09-29,15:39:24,Moved,sample_data\random_document.pdf,sample_data\Documents\random_document.pdf
+2026-09-29,15:39:24,Moved,sample_data\resume.docx,sample_data\Documents\resume.docx
+2026-09-29,15:39:24,Moved,sample_data\Screenshot_2026.png,sample_data\Images\Screenshot_2026.png
+2026-11-24,17:38:09,Moved,/source/test.txt,/dest/test.txt
+2026-11-24,17:53:39,Moved,/source/test.txt,/dest/test.txt
+2026-11-24,19:23:08,Moved,/source/test.txt,/dest/test.txt
+2026-11-24,19:23:54,Moved,/source/test.txt,/dest/test.txt
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\DBMS_notes.txt,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\College\DBMS\Notes\DBMS_notes.txt
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\DSA_assignment.txt,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\College\DSA\Assignments\DSA_assignment.txt
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\duplicate1.txt,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Documents\duplicate1.txt
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\duplicate2.txt,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Documents\duplicate2.txt
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\maths_assignment.docx,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\College\Mathematics\Assignments\maths_assignment.docx
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\photo.jpg,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Images\photo.jpg
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\project_report.txt,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Documents\Projects\project_report.txt
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\Python_notes.txt,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\College\Python\Notes\Python_notes.txt
+2026-11-24,19:24:06,Copied,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\resume.pdf,C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Documents\resume.pdf
+2026-11-24,19:24:59,Moved,/source/test.txt,/dest/test.txt

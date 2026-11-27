@@ -1,0 +1,6 @@
+Course: Data Structures and Algorithms
+Assignment #3: Balanced Binary Trees and Heaps
+
+1. Implement AVL tree insertion with rotations (LL, RR, LR, RL).
+2. Build a Min-Heap and demonstrate heap-sort on 15 random integers.
+3. Compare time complexities of Dijkstra and Bellman-Ford shortest path algorithms.

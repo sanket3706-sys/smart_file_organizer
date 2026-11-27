@@ -1,0 +1,42 @@
+# SmartFile Test Cases and Verification Matrix
+
+This document tracks all manual and automated test cases covering core functionality, edge cases, error handling, Windows compatibility, and course concepts (E3–E10).
+
+========================================================================================================================
+Test ID | Module / Feature          | Input Condition                               | Expected Behavior                                          | Status
+========================================================================================================================
+TC-01   | scanner.validate_folder   | Valid existing directory                      | Returns True and normalized directory path                 | PASS
+TC-02   | scanner.validate_folder   | Non-existent directory path                   | Returns False and clear error message                      | PASS
+TC-03   | scanner.validate_folder   | Path pointing to a file instead of folder     | Returns False ("Path is not a directory")                  | PASS
+TC-04   | scanner.validate_folder   | Empty string or None                          | Returns False ("Folder path cannot be empty")              | PASS
+TC-05   | scanner.recursion (E9)    | Nested directory with multiple files          | calculate_directory_size_recursive matches actual byte sum | PASS
+TC-06   | organizer.classify_file   | "DSA_assignment.pdf"                          | Category: "DSA", Subcategory: "Assignments"                | PASS
+TC-07   | organizer.classify_file   | "DSA_unit2_notes.pdf"                         | Category: "DSA", Subcategory: "Notes"                      | PASS
+TC-08   | organizer.classify_file   | "DBMS_assignment.pdf"                         | Category: "DBMS", Subcategory: "Assignments"               | PASS
+TC-09   | organizer.classify_file   | "Physics_lab.pdf"                             | Category: "Physics", Subcategory: "Lab"                    | PASS
+TC-10   | organizer.destination     | "Screenshot.png" (no rule match)              | Fallback to "Images/"                                      | PASS
+TC-11   | organizer.destination     | "Resume.docx" (no rule match)                 | Fallback to "Documents/"                                   | PASS
+TC-12   | organizer.collision_disk  | "sample.txt" exists in target folder          | Generates unique name "sample_1.txt", does not overwrite   | PASS
+TC-13   | organizer.collision_batch | Two identical filenames from different dirs   | Preview reserves paths: moves to file.txt and file_1.txt   | PASS
+TC-14   | organizer.preview         | File already inside intended target directory | Skips file from move list, reports "already organized"     | PASS
+TC-15   | organizer.user_cancel     | Prompt confirmation is rejected ('N')         | Moves 0 files, returns False, no phantom rescan            | PASS
+TC-16   | duplicate.sha256          | Two identical files                           | Produces identical SHA-256 cryptographic hashes            | PASS
+TC-17   | duplicate.accurate_groups | Confirmed dup pair + singleton of same size   | Confirmed group identified; group not marked as potential  | PASS
+TC-18   | duplicate.potential_only  | Same size, different content                  | Classified as potential duplicate, NOT confirmed duplicate | PASS
+TC-19   | duplicate.safety          | Duplicate files detected                      | Files are never deleted automatically; safety notice shown  | PASS
+TC-20   | search.keyword            | Keyword search "DSA"                          | Returns all files containing "dsa" in filename             | PASS
+TC-21   | search.multi_token_split  | Multi-word query "dsa assignment"             | Splits into tokens via .split(), matches all terms         | PASS
+TC-22   | search.smart_case_isupper | Uppercase acronym query "DBMS"                | Checks .isupper(), matches exact case term                  | PASS
+TC-23   | search.extension          | Extension search "txt" or ".txt"              | Normalizes dot and returns all matching files              | PASS
+TC-24   | search.filter_by_size     | Size threshold filter >= 1 KB                 | Uses lambda & filter() to return files >= 1024 bytes        | PASS
+TC-25   | renamer.validate_chars    | Filename with illegal char (e.g. "doc:1.txt") | Rejects name with "contains invalid character"             | PASS
+TC-26   | renamer.validate_reserved | Windows reserved name (e.g. "CON.txt", "aux") | Rejects name with "uses reserved Windows device name"      | PASS
+TC-27   | renamer.preserve_ext      | User enters "new_doc" without extension       | Automatically preserves original extension (e.g. .txt)     | PASS
+TC-28   | renamer.collision         | New name already exists in directory          | Aborts rename to prevent accidental overwrite               | PASS
+TC-29   | recent_files.today        | File modified today vs 2 days ago             | Calendar-day logic (since 00:00:00 today) matches correctly| PASS
+TC-30   | analyzer.metrics          | File list with various extensions             | Computes total files, total MB, unique count, min/max      | PASS
+TC-31   | analyzer.empty            | Empty file list passed                        | Returns safe empty dictionary without ZeroDivisionError    | PASS
+TC-32   | reporter.csv_inventory    | Scanned files list                            | Writes data/inventory.csv with header and file metadata    | PASS
+TC-33   | reporter.txt_report       | Scanned files + analysis + duplicate info     | Writes reports/file_report.txt without crashing             | PASS
+TC-34   | rules_manager.add_rule    | Keyword already in rules                      | Rejects duplicate rule, prevents corrupted CSV              | PASS
+========================================================================================================================

@@ -1,0 +1,28 @@
+=======================================================
+Course: Data Structures and Algorithms (DSA)
+Unit 2 Lecture Notes: Stacks, Queues, and Deques
+Instructor: Department of Computer Science
+=======================================================
+
+1. The Stack Abstract Data Type (ADT)
+- Principle: Last-In, First-Out (LIFO).
+- Primary Operations:
+  * push(item): Appends item to top of stack. Time: O(1) amortized.
+  * pop(): Removes and returns top item. Time: O(1).
+  * peek(): Inspects top item without removal. Time: O(1).
+  * is_empty(): Returns True if stack contains no elements.
+- Applications:
+  * Function call stack and recursion management.
+  * Balanced parentheses validation in compilers.
+  * Expression evaluation and infix to postfix conversion.
+
+2. The Queue ADT
+- Principle: First-In, First-Out (FIFO).
+- Primary Operations:
+  * enqueue(item): Appends item to rear.
+  * dequeue(): Removes item from front.
+- Implementation in Python:
+  * Using collections.deque provides efficient O(1) operations from both ends.
+
+3. Circular Queue
+- Uses fixed-size buffer with modulo arithmetic: (index + 1) % capacity.

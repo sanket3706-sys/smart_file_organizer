@@ -1,0 +1,25 @@
+=======================================================
+Course: Data Structures and Algorithms (DSA)
+Assignment #3: Trees and Graph Algorithms
+Student Name: Computer Science Undergraduate
+Submission Deadline: Friday, 5:00 PM
+=======================================================
+
+Question 1:
+Implement an algorithm to perform an in-order traversal of a
+Binary Search Tree (BST) without recursion using an explicit stack.
+Explain the time and space complexity.
+
+Question 2:
+Given a directed acyclic graph (DAG), explain Kahn's algorithm
+for Topological Sorting. Provide a step-by-step trace on a graph
+with 6 vertices and 7 directed edges.
+
+Question 3:
+Differentiate between Prim's and Kruskal's algorithms for finding
+the Minimum Spanning Tree (MST). When is Kruskal's algorithm
+preferred over Prim's?
+
+Submission Guidelines:
+- Upload python scripts (.py) and written analysis.
+- Include unit test cases with corner case inputs.

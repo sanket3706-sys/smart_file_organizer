@@ -1,0 +1,24 @@
+=======================================================
+Course: Database Management Systems (DBMS)
+Assignment #2: Relational Algebra, SQL, and Normalization
+Department of Information Technology
+=======================================================
+
+Task 1: Relational Schema Design
+Given the following university relations:
+- Students(StudentID, FullName, Major, GPA)
+- Courses(CourseID, Title, Credits, Department)
+- Enrollments(EnrollmentID, StudentID, CourseID, Grade, Semester)
+
+Write SQL queries to:
+1. Find all students enrolled in 'Computer Networks' during Fall 2026.
+2. Calculate the average GPA per department for students with GPA >= 3.5.
+3. Identify courses with zero student enrollments using an outer join.
+
+Task 2: Normalization
+Consider relation R(A, B, C, D, E) with Functional Dependencies:
+  A -> B, C
+  CD -> E
+  B -> D
+Determine the candidate keys of R.
+Check whether R is in 3NF and BCNF. If not, decompose R into BCNF.

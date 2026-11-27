@@ -1,0 +1,76 @@
+============================================================
+              SMARTFILE INVENTORY & AUDIT REPORT
+============================================================
+
+Generated On:   2026-11-24 19:25:09
+Scanned Folder: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files
+Total Files:    9
+Total Storage:  3.74 KB
+
+------------------------------------------------------------
+FILE TYPE DISTRIBUTION
+------------------------------------------------------------
+  • .TXT             :    6 files (66.7%)
+  • .DOCX            :    1 files (11.1%)
+  • .JPG             :    1 files (11.1%)
+  • .PDF             :    1 files (11.1%)
+
+------------------------------------------------------------
+FILE SIZE EXTREMES
+------------------------------------------------------------
+Largest File:
+  Name: maths_assignment.docx
+  Size: 937 B
+  Path: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\maths_assignment.docx
+
+Smallest File:
+  Name: photo.jpg
+  Size: 149 B
+  Path: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\photo.jpg
+
+------------------------------------------------------------
+DUPLICATE FILES AUDIT
+------------------------------------------------------------
+Found 1 set(s) of confirmed duplicates (matching SHA-256):
+
+Duplicate Set #1 (Size: 444 B):
+  - duplicate1.txt (C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\duplicate1.txt)
+  - duplicate2.txt (C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\duplicate2.txt)
+
+------------------------------------------------------------
+RECENT ORGANIZATION HISTORY (Last 10 Actions)
+------------------------------------------------------------
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\DBMS_notes.txt
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\College\DBMS\Notes\DBMS_notes.txt
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\DSA_assignment.txt
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\College\DSA\Assignments\DSA_assignment.txt
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\duplicate1.txt
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Documents\duplicate1.txt
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\duplicate2.txt
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Documents\duplicate2.txt
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\maths_assignment.docx
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\College\Mathematics\Assignments\maths_assignment.docx
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\photo.jpg
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Images\photo.jpg
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\project_report.txt
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Documents\Projects\project_report.txt
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\Python_notes.txt
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\College\Python\Notes\Python_notes.txt
+[2026-11-24 19:24:06] COPIED:
+   From: C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\test_files\resume.pdf
+   To:   C:\Users\anil9\OneDrive\Desktop\Python project\SmartFile\organized_files\Documents\resume.pdf
+[2026-11-24 19:24:59] MOVED:
+   From: /source/test.txt
+   To:   /dest/test.txt
+
+============================================================
+                    END OF REPORT
+============================================================

@@ -1,0 +1,10 @@
+REVISION REFERENCE CHEAT SHEET: CORE ALGORITHMS
+===============================================
+
+Algorithm Complexities:
+- Quicksort: Average O(n log n), Worst O(n^2), In-place.
+- Mergesort: Best, Average, Worst O(n log n), O(n) space.
+- Binary Search: O(log n) time, requires sorted sequence.
+
+This file is used to verify SHA-256 duplicate content detection.
+Any copy with identical text will have the exact same cryptographic hash.

@@ -1,0 +1,29 @@
+=======================================================
+Course: Engineering Physics Laboratory
+Experiment Report: Planck's Constant using Light Emitting Diodes
+Lab Section: B-4 | Experiment Date: October 2026
+=======================================================
+
+1. Objective:
+To determine the value of Planck's constant (h) by measuring the
+threshold turn-on voltage (knee voltage) of different colored LEDs
+of known peak emission wavelengths.
+
+2. Formula and Principle:
+The energy of emitted photon is related to electron charge and threshold voltage:
+  E = h * nu = (h * c) / lambda = e * V0
+Therefore:
+  V0 = (h * c / e) * (1 / lambda)
+Plotting V0 versus (1 / lambda) yields a straight line with slope:
+  m = (h * c) / e
+
+3. Observations:
+LED Color    Wavelength (nm)    1/Wavelength (1/m)    Knee Voltage (V)
+Red          650                1.538e6               1.85
+Amber        590                1.695e6               2.02
+Green        525                1.905e6               2.30
+Blue         470                2.128e6               2.75
+
+4. Conclusion:
+The experimental value obtained for Planck's constant is h = 6.64e-34 J*s,
+which is within 0.3% error of the standard literature value (6.626e-34 J*s).

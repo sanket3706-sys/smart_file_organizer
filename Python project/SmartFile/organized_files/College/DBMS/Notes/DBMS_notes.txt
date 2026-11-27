@@ -1,0 +1,6 @@
+Course: Database Management Systems
+Unit 4 Notes: Concurrency Control and Transactions
+
+- ACID Properties: Atomicity, Consistency, Isolation, Durability.
+- Two-Phase Locking (2PL) Protocol: Growing phase and shrinking phase.
+- Deadlock prevention (Wait-Die, Wound-Wait) and detection via wait-for graphs.

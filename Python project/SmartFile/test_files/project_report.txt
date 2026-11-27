@@ -1,0 +1,4 @@
+SMARTFILE PROJECT REPORT
+Final Submission: Automatic File & Notes Organizer
+Course: Computational Thinking and Programming
+Summary: Modular rule-based desktop organization system using Python standard library.

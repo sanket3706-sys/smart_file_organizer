@@ -1,0 +1,22 @@
+CURRICULUM VITAE
+
+Name: Anil Sharma
+Degree: Bachelor of Technology in Computer Science & Engineering
+Email: student@university.edu | Phone: +91-98765-43210
+GitHub: github.com/student | LinkedIn: linkedin.com/in/student
+
+EDUCATION:
+- B.Tech in Computer Science and Engineering (2024 - 2028), GPA: 8.9/10.0
+- High School Diploma (Science & Mathematics), Score: 94.2%
+
+TECHNICAL SKILLS:
+- Languages: Python, C++, SQL, Bash
+- Frameworks & Tools: Git, Unittest, Linux, VS Code
+- Concepts: Object-Oriented Programming, Data Structures, Algorithms, Computational Thinking
+
+PROJECTS:
+1. SmartFile Organizer:
+   - Built a modular file organizer in Python demonstrating string manipulation,
+     recursion, file hashing, and automated test coverage.
+2. Library Management System:
+   - Designed relational database schema in SQLite with Python backend.
